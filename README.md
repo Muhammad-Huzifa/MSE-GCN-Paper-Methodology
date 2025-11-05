@@ -82,8 +82,7 @@ pip install -r requirements.txt
 
 | Dataset  | # Classes | Parameters | Top-1 Accuracy |
 | -------- | --------- | ---------- | -------------- |
-| NSLT-100 | 100       | ~1.1M      | **74.6%**      |
-| NSLT-300 | 300       | ~1.1M      | **72.0%**      |
+| NSLT-300 | 300       | ~0.35M      | **67.0%**      |
 
 > Results reproduced using MSE-GCN training configuration (`mse-gcn-67-3500k.ipynb`)
 > and landmarks extracted via MediaPipe Holistic (`landmarks extraction.ipynb`).
