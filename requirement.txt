@@ -1,0 +1,12 @@
+numpy>=1.21
+opencv-python>=4.5
+mediapipe>=0.10
+torch>=1.12
+torchvision>=0.13
+tqdm
+scipy
+matplotlib
+pandas
+jupyter
+notebook
+ipython

@@ -1,0 +1,51 @@
+
+---
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.eggs
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter / Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data & outputs
+/data/
+data/
+datasets/
+*.npz
+*.npy
+*.h5
+*.pkl
+*.pth
+checkpoints/
+checkpoints_*/
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Builds
+dist/
+build/
+
+# Others
+*.csv
+*.tar.gz
+*.zip
+.env
+secrets.json
