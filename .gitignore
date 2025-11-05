@@ -1,8 +1,6 @@
-
----
-
-```gitignore
+# ----------------------------
 # Python
+# ----------------------------
 __pycache__/
 *.py[cod]
 *.so
@@ -15,8 +13,9 @@ venv/
 ENV/
 .venv/
 
-
-# Data & outputs
+# ----------------------------
+# Data & Model Outputs
+# ----------------------------
 /data/
 data/
 datasets/
@@ -30,17 +29,32 @@ checkpoints_*/
 logs/
 *.log
 
-# OS / IDE
+# ----------------------------
+# Jupyter / Notebooks
+# ----------------------------
+.ipynb_checkpoints/
+# Ignore all notebooks globally...
+*.ipynb
+# ...but allow notebooks inside src/
+!src/*.ipynb
+
+# ----------------------------
+# OS / IDE / Editors
+# ----------------------------
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Builds
+# ----------------------------
+# Build / Distribution
+# ----------------------------
 dist/
 build/
 
-# Others
+# ----------------------------
+# Other / Sensitive Files
+# ----------------------------
 *.csv
 *.tar.gz
 *.zip
